@@ -1,0 +1,12 @@
+#' A set FInnish and Russian of adverbials in SVO sentences
+#'
+#' A dataset containing the adverbials eilen/vchera and viime vuonna / v proshlom godu in different syntactic positions
+#'
+#' @format A data frame with n rows and y variables:
+#' \describe{
+#'   \item{sent}{The sentence in which the adverbial occures}
+#'   ...
+#' }
+#' @source The Aranea corpora \url{http://ella.juls.savba.sk/aranea/index.html}, The finnish newspaper collection \url{http://urn.fi/urn:nbn:fi:lb-201405276}, The Russian National Corpus (newspapers),  \url{http://ruscorpora.ru/search-paper.html}
+
+"adverbials"
