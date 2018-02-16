@@ -20,6 +20,6 @@ fn <- function(n,numbers=2){
 
 Output <- function(odir="output",fname="src/text.Rmd"){
     if (!file.exists("src")) setwd("..")
-    render(fname,output_dir=odir, output_format=c("pdf_document","md_document","html_document"))
+    render(fname,output_dir=odir, output_format="all")
 }
 
