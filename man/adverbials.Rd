@@ -3,8 +3,8 @@
 \docType{data}
 \name{adverbials}
 \alias{adverbials}
-\title{A set FInnish and Russian of adverbials in SVO sentences}
-\format{A data frame with n rows and y variables:
+\title{A set of Finnish and Russian adverbials in SVO sentences}
+\format{A tibble with n rows and y variables:
 \describe{
   \item{sent}{The sentence in which the adverbial occures}
   ...
