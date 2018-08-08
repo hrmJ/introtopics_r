@@ -1,0 +1,26 @@
+'y':
+  name: location3
+  'n': 3.0
+upper_x:
+  name: lang
+  'n': 2.0
+x:
+- name: group
+  'n': 3
+- name: corpustype
+  'n': 2
+- name: subjtype
+  'n': 2
+- name: is_presentational
+  'n': 2
+datafile: /home/juho/drive/work/tutkimus/data/introtopics/modeldata/indicators.rds
+outputfile: /home/juho/drive/work/tutkimus/data/introtopics/modeldata/indicators_post.rds
+jags_settings:
+- adapt: 10000.0
+- n.chains: 2.0
+- burnin: 5000.0
+- thin: 1.0
+- sample: 20000.0
+- method: parallel
+diagnostics_directory: /home/juho/projects/work/introtopics/output/mcmc_diagnostics/indicators
+
