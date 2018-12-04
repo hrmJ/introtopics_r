@@ -1,7 +1,7 @@
 Package: IntroTopics
 Title: R code for a research article
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Authors@R: person("Juho", "Härme", email = "juho.harme@gmail.com", role = c("aut", "cre"))
 Description: This package includes the R code for a lingustic research article. The article compares Finnish and Russian adverbials of time in sentence-initial position.
 Depends: R (>= 3.3.0)
 License: WTFPL

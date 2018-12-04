@@ -6,10 +6,11 @@
 #' @param MeanGuide vektori keskiarvoista
 #' @param MeanGuide vektori keskiarvoista
 #' @param MeanTreshold minkä alle jäävät arvot väritetään vaaleammalla värillä
+#' @param lang tulostetaanko suomen- vai englanninkielisiä kuvioita
 #' 
 #' @export
 
-GetLabelNamesForGgMcmc <- function(VarName, VarValues, MeanGuide, MeanTreshold=0.1){
+GetLabelNamesForGgMcmc <- function(VarName, VarValues, MeanGuide, MeanTreshold=0.1, lang="fi"){
 library(gdata)
 VarLengths <- lengths(VarValues)
 replist <- list()

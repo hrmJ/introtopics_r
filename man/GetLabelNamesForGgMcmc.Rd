@@ -4,7 +4,8 @@
 \alias{GetLabelNamesForGgMcmc}
 \title{On the basis of a coda object, retrieve human readable names for the variables}
 \usage{
-GetLabelNamesForGgMcmc(VarName, VarValues, MeanGuide, MeanTreshold = 0.1)
+GetLabelNamesForGgMcmc(VarName, VarValues, MeanGuide, MeanTreshold = 0.1,
+  lang = "fi")
 }
 \arguments{
 \item{VarName}{tutkittava muuttuja}
@@ -14,6 +15,8 @@ GetLabelNamesForGgMcmc(VarName, VarValues, MeanGuide, MeanTreshold = 0.1)
 \item{MeanGuide}{vektori keskiarvoista}
 
 \item{MeanTreshold}{minkä alle jäävät arvot väritetään vaaleammalla värillä}
+
+\item{lang}{tulostetaanko suomen- vai englanninkielisiä kuvioita}
 
 \item{MeanGuide}{vektori keskiarvoista}
 }
