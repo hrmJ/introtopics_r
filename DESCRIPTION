@@ -7,5 +7,4 @@ Depends: R (>= 3.3.0)
 License: WTFPL
 Encoding: UTF-8
 LazyData: true
-Imports: ggplot2, ggthemes, rmarkdown, knitr
 RoxygenNote: 6.0.1
