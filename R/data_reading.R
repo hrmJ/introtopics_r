@@ -9,6 +9,7 @@
 #' @export
 
 TibbleFromJson <- function(sourcefolder){
+#cat *.json  | jq  '[.[] | {year:.year, match:.match, fp:.firstpara, sp:.secondpara, parsed:.parsed_match}]' > combined1.json }]]
     mydata <- pblapply(list.files(sourcefolder),
            function(f){
                read_json(paste0(sourcefolder, f)) %>% 
@@ -17,3 +18,4 @@ TibbleFromJson <- function(sourcefolder){
            })  %>% do.call(rbind,.)
     return (mydata)
 }
+
